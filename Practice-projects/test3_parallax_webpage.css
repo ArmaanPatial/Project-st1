@@ -1,0 +1,19 @@
+.parallax-1{
+    width: 100%;
+    height: 500px;
+    background-image: url('gfg2.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.parallax-2{
+    background-image: url('gfg.png');
+    width: 100%;
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

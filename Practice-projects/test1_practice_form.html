@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Form</title>
+    <link rel="stylesheet" href="test1_practice_form.css">
+</head>
+<body>
+    <fieldset>
+        <legend>
+        <h1>Practice survey form</h1>
+        </legend>
+        <form id="form">
+
+            <div class="form-control">
+                <label for="name" id="label-name">Name</label>
+                <input type="text" id="name"
+                placeholder="Enter your name">
+            </div>
+
+            <div class="form-control">
+                <label for="email" id="label-email">Email</label>
+                <input type="text" id="email"
+                placeholder="Enter your email">
+            </div>
+
+            <div class="form-control">
+                <label for="age" id="label-age">Age</label>
+                <input type="text" id="age"
+                placeholder="Enter your age">
+            </div>
+
+            <div class="form-control">
+                <label for="role" id="label-role">
+                    Which option describe you best?
+                </label>
+                <select name="role" id="label-role">
+                    <option value="student">Student</option>
+                    <option value="intern">Intern</option>
+                    <option value="professional">Professional</option>
+                </select>
+            </div>
+
+            <div class="form-control">
+                <label>Would you recomend 
+                    this to a friend
+                </label>
+                <label for="recommend-1"><input type="radio" id="recommend-1">yes</input></label>
+                <label for="recommend-2"><input type="radio" id="recommend-1">no</input></label>
+                <label for="recommend-3"><input type="radio" id="recommend-1">maybe</input></label>
+            </label>
+            </div>
+
+            <div class="form-control">
+                <label for="point">Languages and framework known
+                    <small>(check all that apply)</small>
+                </label>
+                <label for="inp-1">
+                    <input type="checkbox" name="inp">C</input>
+                </label>
+                <label for="inp-2">
+                    <input type="checkbox" name="inp">C++</input>
+                </label>
+                <label for="inp-3">
+                    <input type="checkbox" name="inp">C#</input>
+                </label>
+                <label for="inp-4">
+                    <input type="checkbox" name="inp">Java</input>
+                </label>
+                <label for="inp-5">
+                    <input type="checkbox" name="inp">Python</input>
+                </label>
+                <label for="inp-6">
+                    <input type="checkbox" name="inp">Javascript</input>
+                </label>
+                <label for="inp-7">
+                    <input type="checkbox" name="inp">React</input>
+                </label>
+                <label for="inp-8">
+                    <input type="checkbox" name="inp">Spring</input>
+                </label>
+                <label for="inp-9">
+                    <input type="checkbox" name="inp">Django</input>
+                </label>
+                <label for="inp-10">
+                    <input type="checkbox" name="inp">Angular</input>
+                </label>
+            </div>
+            <div class="form-control">
+                <label for="comments">
+                    Any comments or suggestion
+                </label>
+                <textarea name="comments" id="label-comments"
+                placeholder="Enter your comments here"></textarea>
+            </div>
+
+            <button type="submit" value="submit">Submit</button>
+
+        </form>
+    </fieldset>
+</body>
+</html>
