@@ -5,6 +5,4 @@ var c="b"
 var d=Number
 console.log(typeof (b+c))
 console.log(typeof d) 
-
-
-
+console.log("Armaan")

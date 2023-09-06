@@ -8,21 +8,39 @@
 }
 
 body{
-    background: #212531;
+    background-color: #212531;
 }
 header{
-    font-size: 30px;
-    height: fit-content;
+    background-color: rgb(112, 144, 133);
     width: 100%;
-    background-color: azure;
+    height: 75px;
 }
 .right-nav{
-    text-align: right;
-    
+    float: right;
 }
-.left-logo{
-    text-align: left;
+.right-nav a{
+    display: inline;
+    font-size: 18px;
+    font-weight: bolder;
+    margin: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
 }
+
+header button{
+    float: left;
+    background-color: #232633;
+    color: red;
+    padding: 5px 30px;
+    margin-top: 15px;
+    margin-left: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 30px;
+}
+
 .img1{
     width: 100px;
     margin-left: 20px;
@@ -30,5 +48,5 @@ header{
     margin-bottom: 2px;
 }
 .img2{
-    width: 100%;
+    width: 100%;    
 }
